@@ -1,4 +1,0 @@
-sitecake/
-sitecake-backup/
-sitecake-temp/
-sitecake.php
