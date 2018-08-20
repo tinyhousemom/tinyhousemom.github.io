@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin Slab|Roboto Sans');
 
 body{
-  background-color: #fff5c3;
   font-family: "Roboto Slab", sans-serif;
   margin: 0;
   position: relative;
+  background-color: #fff5c3;
 }
 
 .color{
@@ -13,11 +13,6 @@ body{
   background-color: #fff5c3;
   background-color: #9bd7d5;
   background-color: #ff7260;
-}
-
-.container{
-  padding-left: 2em;
-  padding-right: 2em;
 }
 
 nav{
@@ -41,4 +36,21 @@ nav a{
 nav a:hover{
   background-color: #9bd7d5;
   color: black;
+}
+
+.banner{
+  width: 100%;
+}
+
+.post{
+  background-color: #fff5c3;
+}
+
+.footer{
+  background-color: #505050;
+  height: 150px;
+}
+
+footer p{
+  color: #fff5c3;
 }
