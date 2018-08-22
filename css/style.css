@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin Slab|Roboto Sans');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Merienda|Merienda+One|Montserrat');
 
 body{
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   position: relative;
   background-color: #fff5c3;
@@ -15,6 +15,21 @@ body{
   background-color: #ff7260;
 }
 
+.fonts{
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Merienda', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merienda One', cursive;
+}
+
+h1{
+  font-family: 'Merienda One', cursive;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
 nav{
   overflow: hidden;
   background-color: #129793;
@@ -24,6 +39,7 @@ nav{
 }
 
 nav a{
+  overflow: hidden;
   float: right;
   display: block;
   color: #fff5c3;
@@ -40,14 +56,20 @@ nav a:hover{
 
 header .navbar-brand {
   float: left;
+  font-family: 'Merienda', cursive;
 }
 
-@media only screen and (max-width: 460px) {
-  header .navbar-brand {
+@media only screen and (max-width: 600px) {
+  header nav a {
+    font-size: .5em;
     visibility: hidden;
   }
 }
-
+@media only screen and (min-width: 600px) {
+  header #menu {
+    visibility: hidden;
+  }
+}
 .cover{
   position: relative;
 }
@@ -63,9 +85,10 @@ header .navbar-brand {
 
 .cta h1{
   color: #fff5c3;
+  text-shadow: 3px 3px 4px #000000;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 600px) {
 .cta h1 {
     visibility: hidden;
   }
@@ -86,4 +109,45 @@ header .navbar-brand {
 
 footer p{
   color: #fff5c3;
+}
+
+/**Sidebar**/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
