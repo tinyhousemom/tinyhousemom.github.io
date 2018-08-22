@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/w3.css">
         <link rel="stylesheet" href="css/simple-grid.min.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Tiny House Mom</title>
@@ -12,24 +11,17 @@
       <header class="cover">
         <nav class="fixed-top">
           <a class="navbar-brand" href="index.html">Tiny House Mom</a>
-          <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()" id="menu">&#9776;</button>
-          <a href="blog.html">Blog</a>
-          <a href="about.html">About</a>
-          <a href="index.html">Home</a>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="menu">&#9776;</span>
+          <a href="blog.html" class="bar">Blog</a>
+          <a href="about.html" class="bar">About</a>
+          <a href="index.html" class="bar">Home</a>
         </nav><br><br>
         <!-- Sidebar -->
-        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-          <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="blog.html">Blog</a><br>
           <a href="about.html">About</a><br>
           <a href="index.html">Home</a>
-        </div>
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
         </div>
         <div class="cta">
           <h1>Tiny House Mom</h1>
@@ -53,17 +45,18 @@
                 </ul>
             </div>
           </div>
-        <div class="footer"><br><br>
+        <div class="footer"><br>
           <footer class="container">
             <p>Tiny House Mom &copy; 2018</p>
           </footer>
         </div>
         <script>
-        function openRightMenu() {
-            document.getElementById("rightMenu").style.display = "block";
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
         }
-        function closeRightMenu() {
-            document.getElementById("rightMenu").style.display = "none";
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
         }
         </script>
     </body>

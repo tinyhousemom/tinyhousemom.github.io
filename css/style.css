@@ -60,11 +60,18 @@ header .navbar-brand {
 }
 
 @media only screen and (max-width: 600px) {
-  header nav a {
+header .bar {
     font-size: .5em;
     visibility: hidden;
   }
 }
+
+#menu{
+  float: right;
+  padding-right: 20px;
+  color: #fff5c3;
+}
+
 @media only screen and (min-width: 600px) {
   header #menu {
     visibility: hidden;
@@ -120,17 +127,17 @@ footer p{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #129793;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #fff5c3;
     display: block;
     transition: 0.3s;
 }
@@ -144,7 +151,7 @@ footer p{
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 @media screen and (max-height: 450px) {
