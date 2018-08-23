@@ -8,10 +8,25 @@
         <title>Tiny House Mom Blog</title>
     </head>
     <body>
-      <nav class="fixed-top"> <a href="blog.html">Blog</a> <a href="about.html">About</a> <a href="index.html">Home</a> </nav>
+      <header>
+        <nav class="fixed-top">
+          <a class="navbar-brand" href="index.html">Tiny House Mom</a>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="menu">&#9776;</span>
+          <a href="blog.html" class="bar">Blog</a>
+          <a href="about.html" class="bar">About</a>
+          <a href="index.html" class="bar">Home</a>
+        </nav><br><br>
+        <!-- Sidebar -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+        </div>
+      </header>
         <div class="container">
-            <div class="sc-content"><br><br>
-                <h1>Posts:</h1>
+            <div class="sc-content"><br>
+                <h1>Blog:</h1>
                 <h2>First Day</h2>
                 <img alt="" style="width:41.43426%;" src="/tinyhousemom.github.io/sitecake-temp/r5b758714dfeb1/draft/images/img-5247-sc5b7622c09d80d-640.jpg" srcset="/tinyhousemom.github.io/sitecake-temp/r5b758714dfeb1/draft/images/img-5247-sc5b7622c09d80d-1280.jpg 1280w,/tinyhousemom.github.io/sitecake-temp/r5b758714dfeb1/draft/images/img-5247-sc5b7622c09d80d-960.jpg 960w,/tinyhousemom.github.io/sitecake-temp/r5b758714dfeb1/draft/images/img-5247-sc5b7622c09d80d-640.jpg 640w,/tinyhousemom.github.io/sitecake-temp/r5b758714dfeb1/draft/images/img-5247-sc5b7622c09d80d-320.jpg 320w">
                 <p>The tiny house movement (also known as the "small house movement") is a description for the architectural
@@ -26,10 +41,19 @@
                 </ul>
             </div>
           </div>
-        <div class="footer"><br><br>
+        <div class="footer"><br>
           <footer class="container">
             <p>Tiny House Mom Copy Right 2018</p>
           </footer>
         </div>
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
     </body>
 </html>
