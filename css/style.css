@@ -14,6 +14,8 @@ body{
   background-color: #fff5c3;
   background-color: #9bd7d5;
   background-color: #ff7260;
+  background-color: #734512;
+
 }
 
 .fonts{
@@ -25,10 +27,16 @@ body{
 
 h1{
   font-family: 'Merienda One', cursive;
+  color: #734512;
+}
+
+h2, h3, h4, h5, h6{
+  color: #734512;
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
+  color: #734512;
 }
 
 nav{
@@ -57,7 +65,7 @@ nav a:hover{
 }
 
 header .navbar-brand {
-  background: url(../images/navbrand.png);
+  background: url(../images/navbrand.svg);
   background-repeat: no-repeat;
   width: 150px;
   height: 30px;
