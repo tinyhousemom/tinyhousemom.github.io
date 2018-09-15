@@ -94,7 +94,7 @@ header .bar {
 .cover{
   position: relative;
 }
-
+/*
 .cta{
   position: absolute;
   background: url(../images/tiny-house-cta.png);
@@ -106,7 +106,7 @@ header .bar {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-/*
+
 .cta h1{
   color: #fff5c3;
   font-family: 'Indie Flower', cursive;
@@ -180,4 +180,26 @@ footer p{
 
 .center{
   text-align: center;
+}
+
+/**Cards**/
+
+.card {
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 40%;
+border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.contain {
+  padding: 2px 16px;
 }
