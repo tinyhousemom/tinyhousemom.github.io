@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="css/simple-grid.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Tiny House Mom</title>
+    </head>
+    <body>
+      <header class="cover">
+        <nav class="fixed-top">
+            <a class="navbar-brand" href="index.html"></a> <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="menu">&#9776;</span>
+            <a href="about.html" class="bar">About</a> <a href="index.html" class="bar">Blog</a> <a href="home.html" class="bar">Home</a>
+        </nav>
+        <br>
+        <br>
+        <!-- Sidebar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Blog</a> <a href="about.html">About</a> <a href="home.html">Home</a>
+        </div>
+        <div class="cta">
+        </div>
+        <img src="images/banner.jpg" alt="banner" class="banner">
+      </header>
+      <div class="container">
+        <div class="row animatedParent">
+          <div class="col-6 card animated fadeInUp">
+            <img src="images/hip0898-sc5b8ae4b78b5ae-320.jpg" alt="Pond Photo" style="width:100%">
+            <div class="contain">
+              <h4><b>Why Blog?</b></h4>
+              <p>My husband and I started discussing...</p>
+              <a href="../#post1"><strong>Read More...</strong></a>
+            </div>
+          </div>
+          <div class="col-6 card animated fadeInUp">
+            <img src="images/family-trailer-1-sc5b948b571f958-320.jpg" alt="Family Photo" style="width:100%">
+            <div class="contain">
+              <h4><b>About Us</b></h4>
+              <p>I am a stay-at-home mom and...</p>
+              <a href="about.html"><strong>Read More...</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="row animatedParent">
+          <div class="col-6 card animated fadeInUp">
+            <img src="images/scenery-7-sc5b9b168c9ef2c-320.jpg" alt="Pond Photo" style="width:100%">
+            <div class="contain">
+              <h4><b>Why Tiny? Part 1</b></h4>
+              <p>While we have had many family...</p>
+              <a href="../#post2"><strong>Read More...</strong></a>
+            </div>
+          </div>
+          <div class="col-6 card animated fadeInUp">
+            <img src="images/family-photo.jpg" alt="Pond Photo" style="width:100%">
+            <div class="contain">
+              <h4><b>Why Tiny? (Part 2)  Stay-at-home Mom</b></h4>
+              <p>Another important aspect of...</p>
+              <a href="../#post3"><strong>Read More...</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="footer">
+              <br>
+              <footer class="container">
+                  <p>Tiny House Mom &copy; 2018</p>
+                  <a href="https://www.facebook.com/Tiny-House-Mom-566533000429362"><img src="images/FindUs-FB-RGB-Wht.png" alt="Facebook Link"></a>
+              </footer>
+          </div>
+          <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width = "150px";
+          }
+          function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src='js/css3-animate-it.js'></script>
+    </body>
+</html>
