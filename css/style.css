@@ -161,6 +161,13 @@ footer a{
   color: #fff5c3;
 }
 
+#sticky{
+  width:100%;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the window*/
+  left:0;
+}
+
 /**Sidebar**/
 
 .sidenav {
