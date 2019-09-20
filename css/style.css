@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Merienda|Merienda+One|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Merienda|Montserrat');
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -19,15 +19,13 @@ body{
 }
 
 .fonts{
-  font-family: 'Indie Flower', cursive;
   font-family: 'Merienda', cursive;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Merienda One', cursive;
 }
 
 h1 {
     display: block;
-    font-family: Lato,Helvetica,sans-serif;
+    font-family: 'Merienda', cursive;
     color: #734512;
     font-size: 2rem;
     margin-block-start: 0.83em;
@@ -130,7 +128,6 @@ header .bar {
 
 .cta h1{
   color: #fff5c3;
-  font-family: 'Indie Flower', cursive;
   text-shadow: 3px 3px 4px #000000;
 }
 
